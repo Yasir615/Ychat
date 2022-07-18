@@ -4,7 +4,7 @@ const messageInput=document.getElementById('Message-input')
 const messageContainer=document.querySelector(".container")
 var audio=new Audio('ink.mp3');
 
-const append = (message,position)=>{
+const append =  (message,position)=>{
     const messageElement=document.createElement('div')
     messageElement.innerText=message;
     messageElement.classList.add('message');
